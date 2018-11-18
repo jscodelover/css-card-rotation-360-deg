@@ -20,11 +20,34 @@
     }
     &--back {
       transform: rotateY(180deg);
-      background-image: linear-gradient(
-        to right bottom,
-        rgba(243, 106, 14, 0.541),
-        rgba(243, 75, 14, 0.8)
-      );
+      &-1 {
+        background-image: linear-gradient(
+          to right bottom,
+          rgba(243, 106, 14, 0.541),
+          rgba(243, 75, 14, 0.8)
+        );
+      }
+      &-2 {
+        background-image: linear-gradient(
+          to right bottom,
+          rgba(174, 243, 14, 0.418),
+          rgba(41, 243, 14, 0.788)
+        );
+      }
+      &-3 {
+        background-image: linear-gradient(
+          to right bottom,
+          rgba(14, 235, 243, 0.411),
+          rgba(14, 178, 243, 0.8)
+        );
+      }
+      &-4 {
+        background-image: linear-gradient(
+          to right bottom,
+          rgba(121, 14, 243, 0.377),
+          rgba(94, 14, 243, 0.8)
+        );
+      }
     }
   }
   &:hover &__side--front {
