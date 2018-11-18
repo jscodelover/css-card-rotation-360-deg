@@ -56,4 +56,42 @@
   &:hover &__side--back {
     transform: rotateY(0deg);
   }
+  &--picture {
+    background-size: cover;
+    background-position: center;
+    height: 23rem;
+    background-blend-mode: screen;
+    &-1 {
+      background-image: linear-gradient(
+          to right bottom,
+          rgba(243, 106, 14, 0.541),
+          rgba(243, 75, 14, 0.8)
+        ),
+        url("../img/nat-5.jpg");
+    }
+    &-2 {
+      background-image: linear-gradient(
+          to right bottom,
+          rgba(174, 243, 14, 0.418),
+          rgba(41, 243, 14, 0.788)
+        ),
+        url("../img/nat-5.jpg");
+    }
+    &-3 {
+      background-image: linear-gradient(
+          to right bottom,
+          rgba(14, 235, 243, 0.411),
+          rgba(14, 178, 243, 0.8)
+        ),
+        url("../img/nat-7.jpg");
+    }
+    &-4 {
+      background-image: linear-gradient(
+          to right bottom,
+          rgba(121, 14, 243, 0.377),
+          rgba(94, 14, 243, 0.8)
+        ),
+        url("../img/nat-7.jpg");
+    }
+  }
 }
